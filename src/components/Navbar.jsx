@@ -1,7 +1,15 @@
-import './Navbar.scss';
+import "./Navbar.scss";
 
-export default function Navbar() {
+export default function Topbar() {
   return (
-    <div>Navbar</div>
-  )
+    <div class="navbar">
+      <div class="container">
+        <div class="left">
+          <a href="#intro" class="logo">
+            <img src="images/JS_Icon.png" alt="" class="jsLogo" />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
