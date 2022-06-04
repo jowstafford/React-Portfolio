@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
+import Portfolio from "./components/Portfolio";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
@@ -15,6 +16,7 @@ function App() {
         <div class="sections">
           <Routes>
             <Route path="/" element={<Hero />} />
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </div>
       </Router>
