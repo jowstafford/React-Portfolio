@@ -11,11 +11,11 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <img src="images/JS_Icon.png" alt="" class="jsLogo"/>
           </a>
           <div class="itemContainer">
-            <FontAwesomeIcon icon={faUser} class="icon" />
+            <FontAwesomeIcon icon={faUser} className="icon" />
             <span>+1 903 744 9700</span>
           </div>
           <div class="itemContainer">
-            <FontAwesomeIcon icon={faEnvelope} class="icon" />
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
             <span>jordanstafforddev@gmail.com</span>
           </div>
         </div>
