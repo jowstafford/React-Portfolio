@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .portfolioList {
     font-size: 16px;
     margin-right: 50px;
@@ -6,8 +8,8 @@
     cursor: pointer;
 
     &.active {
-      background-color: #0C234B;
-      color: #E2E9EB;
+      background-color: $mainColor;
+      color: $primaryColor;
       box-shadow: 0px 0px 15px -8px black;
     }
   }

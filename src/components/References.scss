@@ -1,10 +1,12 @@
+@import "../global.scss";
+
 .references {
-  background-color:#E2E9EB;
+  background-color: $primaryColor;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #0C234B;
+  color: $mainColor;
 
   h1 {
     font-size: 50px;
@@ -28,7 +30,7 @@
       padding: 20px;
       transition: all 0.25s ease;
       margin: 0px 30px;
-      background-color:#E2E9EB;
+      background-color:$primaryColor;
 
       &:hover {
         transform: scale(1.1);

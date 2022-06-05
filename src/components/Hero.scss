@@ -1,6 +1,8 @@
+@import "../global.scss";
+
 .Hero {
-  background-color: #e2e9eb;
-  color: #0c234b;
+  background-color: $primaryColor;
+  color: $mainColor;
   display: flex;
 
   .left {
@@ -11,7 +13,7 @@
       width: 700px;
       height: 700px;
       overflow: hidden;
-      background-color: #1E5288;
+      background-color: $secondaryColor;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;

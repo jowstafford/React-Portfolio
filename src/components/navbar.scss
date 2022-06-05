@@ -1,8 +1,10 @@
+@import "../global.scss";
+
 .navbar {
   width: 100%;
   height: 70px;
-  background-color: #e2e9eb;
-  color: #0c234b;
+  background-color: $primaryColor;
+  color: $mainColor;
   position: fixed;
   top: 0px;
   z-index: 3;
@@ -24,7 +26,7 @@
         .jsLogo {
           height: 40px;
           border-radius: 8px;
-          border: 2px solid #0c234b;
+          border: 2px solid $mainColor;
         }
       }
 
@@ -58,7 +60,7 @@
         span {
           width: 100%;
           height: 3px;
-          background-color: #0c234b;
+          background-color: $mainColor;
           transform-origin: left;
           transition: all 1s ease;
         }
@@ -67,14 +69,14 @@
   }
 
   &.active {
-    background-color: #0c234b;
-    color: #e2e9eb;
+    background-color: $mainColor;
+    color: $primaryColor;
 
     .hamburgerMenu {
         
       span {
         &:first-child {
-          background-color: #e2e9eb;
+          background-color: $primaryColor;
           transform: rotate(45deg);
         }
 
@@ -83,7 +85,7 @@
         }
 
         &:last-child {
-          background-color: #e2e9eb;
+          background-color: $primaryColor;
           transform: rotate(-45deg);
         }
       }

@@ -1,7 +1,9 @@
+@import "../global.scss";
+
 .menu {
     width: 300px;
     height: 100vh;
-    background-color: #0c2340;
+    background-color: $mainColor;
     position: fixed;
     top: 0px;
     right: -300px;
@@ -22,7 +24,7 @@
       list-style: none;
       font-size: 35px;
       font-weight: 300;
-      color: #e3e9eb;
+      color: $primaryColor;
       width: 60%;
     }
   

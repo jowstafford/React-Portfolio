@@ -1,4 +1,5 @@
 import "./Hero.scss";
+import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
@@ -12,6 +13,26 @@ export default function Hero() {
         <div class="container">
           <h2>Hello There, I Am</h2>
           <h1>Jordan Stafford</h1>
+          <h3>
+            <Typewriter
+              options={{
+                loop: true,
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Full-Stack Developer")
+                  .pauseFor(1600)
+                  .deleteAll()
+                  .typeString("Front-End Designer")
+                  .pauseFor(1600)
+                  .deleteAll()
+                  .typeString("Lifelong Student")
+                  .pauseFor(1600)
+                  .deleteAll()
+                  .start();
+              }}
+            />
+          </h3>
         </div>
       </div>
     </div>
