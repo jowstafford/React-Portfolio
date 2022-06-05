@@ -20,7 +20,9 @@ fork, clone, or download a zip folder of this respository and enter npm i in the
 
 ## Usage
 
-//COMING SOON//
+
+https://user-images.githubusercontent.com/91708768/172033166-adefe080-3968-4914-9a92-936c3ca14a10.mp4
+
 
 ## Collaborators
 no other collaborators. 
