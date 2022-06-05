@@ -16,7 +16,7 @@ export const projects = [
     title: "Story Team",
     img: "images/storyTeam.png",
     link: "https://github.com/patrickaregan/project3-group6",
-  }
+  },
 ];
 
 export const frontendChallenges = [

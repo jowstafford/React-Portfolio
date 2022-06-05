@@ -8,7 +8,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
       <div class="container">
         <div class="left">
           <a href="#Hero" class="logo">
-            <img src="images/JS_Icon.png" alt="" class="jsLogo"/>
+            <img src="images/JS_Icon.png" alt="" class="jsLogo" />
           </a>
           <div class="itemContainer">
             <FontAwesomeIcon icon={faUser} className="icon" />
