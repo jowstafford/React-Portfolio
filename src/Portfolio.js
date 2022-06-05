@@ -3,16 +3,19 @@ export const projects = [
     id: 1,
     title: "Chess Master",
     img: "images/chessmasterMobile.png",
+    link: "https://github.com/jowstafford/ChessMaster",
   },
   {
     id: 2,
     title: "Zoolander",
     img: "images/homepage_md.png",
+    link: "https://github.com/JFlo1981/Virtual-Zoo",
   },
   {
     id: 3,
     title: "Story Team",
     img: "images/storyTeam.png",
+    link: "https://github.com/patrickaregan/project3-group6",
   }
 ];
 

@@ -26,8 +26,8 @@ export default function Portfolio() {
     },
     {
       id: "performanceChallenges",
-      title: "Performance Challenges"
-    }
+      title: "Performance Challenges",
+    },
   ];
 
   useEffect(() => {
@@ -65,8 +65,10 @@ export default function Portfolio() {
       <div class="Container">
         {data.map((data) => (
           <div class="item">
-            <img src={data.img} alt="" />
-            <h3>{data.title}</h3>
+            <a href={data.link}>
+              <img src={data.img} alt="" />
+            </a>
+            <h3><a href={data.link}>{data.title}</a></h3>
           </div>
         ))}
       </div>
